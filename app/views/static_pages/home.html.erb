@@ -1,9 +1,15 @@
 <% provide(:title, "Home") %>
+<div class="center jumbotron">
+
+    <h1>Welcome to the Killer Sharks App</h1>
 
 
-    <h1>Killer Sharks App</h1>
-    <p>
+    <h2>
       This is the home page for the
-      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-      sample application.
-    </p>
+      <a href="http://www.railstutorial.org/">All Sharks</a>
+      to come and smash in.
+    </h2>
+     <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div><br>
+
+<%= image_tag("https://media.giphy.com/media/AxlEMZ8HQxPbO/giphy.gif") %>
